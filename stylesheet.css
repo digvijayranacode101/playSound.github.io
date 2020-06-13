@@ -1,0 +1,65 @@
+body{
+ background: url(rockimage1.jpg);
+ background-size : cover;
+ color : Yellow;
+
+}
+.keys{
+ display: flex;
+ flex-direction : row;
+
+ padding : 200px ;
+}
+
+.key{
+ border : 5px solid #DCD163;
+ border-radius : 5px;
+ padding : 10px;
+ margin : 10px;
+ font-size : 40px;
+ width : 100px;
+ height : 100px;
+ text-align : center;
+ background : rgba(0,0,0,.7);
+ color : white;
+ text-shadow : 5px 10px 5px yellow;
+ transition : all .1s;
+}
+.playing{
+ transform : scale(1.5);
+ border-color : #FAE305;
+ box-shadow : 5px 10px 5px;
+}
+
+kbd {
+ display : block;
+ font-size : 40px;
+}
+.sound{
+ font-size:25px;
+ padding : px; 
+ color : #DCD163;
+}
+
+#footer{
+ 
+ font-size : 15px;
+ background: black;
+ width : 100px;
+ text-align : center;
+ margin-left: 630px;
+ margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
